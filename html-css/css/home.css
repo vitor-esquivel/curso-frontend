@@ -1,0 +1,119 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;font-size: 62.5%;
+  }
+
+  body {
+    background-image: url(../images/fox.png);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+    }
+  
+
+  #imagem-01{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 40px auto;
+
+    border-radius: 50%;
+
+  }
+
+  #imagem-01 img {
+    width: 100%;
+    filter: grayscale(0%)
+  }
+  #imagem-01 img:hover {
+    filter: grayscale(100%)
+  }
+
+  .tabelas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  h1, p, li {
+    filter: drop-shadow(15px 15px 5px );
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: hsla(0, 1%, 23%, 0.432);
+    list-style-type: none;
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    transition: background-color 0.3s;
+     
+  
+  }
+  h1,li:hover {
+    background-color: hsla(0, 0%, 100%, 0.466);
+
+  }
+    a{
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+  
+  ul {
+   
+    font-size: 20px;
+   
+  } 
+  
+  ul li{
+    font-size: .8em;
+    border-bottom: none;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    
+  }
+
+  h2{
+    font-size: 2rem;
+    
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+
+
+  /* Style the header */
+  header {
+    
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    
+  }
+
+
+  /* Style the footer */
+  footer {
+    
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+
+    form div {
+      position: relative;
+      top: -10px;
+    }
+  }
+  
+ 
